@@ -30,7 +30,7 @@ os.chdir('C:/Users/cloud/Dropbox/Projects/bayesbook/')
 # Chapter 2 #
 #===========#
 
-from thinkbayes import Pmf
+from thinkbayes import Pmf  # requires print statement fixes
 
 # build a 6-sided die:
 die = Pmf()
