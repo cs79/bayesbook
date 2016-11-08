@@ -1,1 +1,9 @@
+{
+  // Creating project
+    app.newProject();
+
+  // Creating comp
+    app.project.items.addComp("Demo", 1280, 720, 1, 10, 24);
+}
+
 [(thisComp.width/2), (thisComp.height/2)] + [Math.sin(time)*50, -Math.cos(time)*50]
